@@ -1,6 +1,6 @@
-# StuddyBuddy
+# StudyBuddy
 
-**StuddyBuddy** is a mobile application designed to facilitate studying for students. Built using Kotlin for Android, StuddyBuddy connects users with study educational material, study partners to enhance their learning experience through collaboration.
+**StudyBuddy** is a mobile application designed to facilitate studying for students. Built using Kotlin for Android, StuddyBuddy connects users with study educational material, study partners to enhance their learning experience through collaboration.
 
 ## Features
 
