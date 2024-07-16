@@ -27,3 +27,5 @@ local.properties
 
 .gradle
 .idea
+
+DS_Store
