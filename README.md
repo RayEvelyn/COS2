@@ -4,8 +4,31 @@
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=vector-im_element-android&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=vector-im_element-android)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=vector-im_element-android&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=vector-im_element-android)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=vector-im_element-android&metric=bugs)](https://sonarcloud.io/summary/new_code?id=vector-im_element-android)
+# StudyBuddy
 
-# Element Android
+**StudyBuddy** is a mobile application designed to facilitate studying for students. Built using Kotlin for Android, StuddyBuddy connects users with study educational material, study partners to enhance their learning experience through collaboration.
+
+## Features
+
+- **Voice Input:** Input queries by voice.
+- **Text Input:** Input queries by text.
+- **Calendar Integration:** Connect your calendars to maximize your schedule while staying on top of deadlines.
+- **Study Assistant:** Interact and connect with your Studybot solo or with your team.
+
+## Roadmap
+- **Real-time Chat:** Communicate with your study buddy using an integrated chat feature.
+- **Study Sessions:** Schedule and join study sessions to collaborate in real-time.
+- **Study Materials Sharing:** Share notes, code snippets, documents, and resources with your study partner.
+- **Progress Tracking:** Track your study progress and set goals to stay motivated.
+
+## Installation
+
+1. **Clone the Repository:**
+   ```bash
+   git clone git@github.com:RayEvelyn/COS2.git
+
+
+# (Core Component) Element Android
 
 Element Android is an Android Matrix Client provided by [Element](https://element.io/). The app can be run on every Android devices with Android OS Lollipop and more (API 21).
 
@@ -52,7 +75,5 @@ Also [this documentation](./docs/_developer_onboarding.md) can hopefully help de
 
 ## Triaging issues
 
-Issues are triaged by community members and the Android App Team, following the [triage process](https://github.com/element-hq/element-meta/wiki/Triage-process).
-
-We use [issue labels](https://github.com/element-hq/element-meta/wiki/Issue-labelling) to sort all incoming issues.
+Issues are triaged by Team members and the Android App Team
 
