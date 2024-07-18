@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageButton
+        android:layout_width="52dp"
+        android:layout_height="48dp" app:srcCompat="@drawable/ic_home_icon" android:id="@+id/imageButton"
+        app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+        android:backgroundTint="#6DFFFFFF" android:layout_marginStart="32dp" android:contentDescription="@string/home"/>
+    <ImageButton
+        android:layout_width="54dp"
+        android:layout_height="45dp" app:srcCompat="@drawable/ic_camera_plain" android:id="@+id/imageButton2"
+        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@+id/imageButton"
+        android:backgroundTint="#00000000" android:scaleX="2.5" android:scaleY="2.5" android:foregroundTint="#000000"
+        android:layout_marginBottom="4dp" android:layout_marginStart="64dp" android:contentDescription="@string/uploadimage"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" app:srcCompat="@drawable/quantum_ic_people_white_24"
+        android:id="@+id/imageButton4"
+        android:backgroundTint="#D0000000" android:foregroundTint="#000000"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton3" app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.569"
+        android:layout_marginBottom="4dp"
+        android:contentDescription="@string/social"/>
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="50dp" app:srcCompat="@drawable/ic_mic_on" android:id="@+id/imageButton3"
+        android:backgroundTint="#52FFFFFF"
+        android:scaleX="1.5" android:scaleY="1.5" app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="16dp" app:layout_constraintBottom_toBottomOf="parent"
+        android:contentDescription="@string/mic"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="1dp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toTopOf="@+id/imageButton2"/>
+    <Button
+        android:text="@string/notification_settings"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:id="@+id/button2"
+        app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="44dp"
+        app:layout_constraintHorizontal_bias="0.497"/>
+    <Button
+        android:text="@string/language"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:id="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" android:layout_marginTop="44dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
