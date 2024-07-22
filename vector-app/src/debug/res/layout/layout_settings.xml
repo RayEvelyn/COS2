@@ -39,8 +39,8 @@
     <Button
         android:text="@string/notification_settings"
         android:textSize="20sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" android:id="@+id/butt_notSett"
+        android:layout_width="269dp"
+        android:layout_height="66dp" android:id="@+id/butt_notSett"
         app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="44dp"
         app:layout_constraintHorizontal_bias="0.497" app:strokeColor="#141414" app:strokeWidth="1dp"
