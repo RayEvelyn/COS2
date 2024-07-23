@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="studybuddy">Studybuddy</string>
+    <string name="enter_question">Enter Question</string>
+    <string name="mic">Microphone</string>
+    <string name="social">Social chat\n</string>
+    <string name="uploadimage">Upload Image</string>
+    <string name="home">Home</string>
+</resources>
