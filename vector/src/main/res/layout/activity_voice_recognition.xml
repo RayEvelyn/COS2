@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="16dp">
+
+    <!-- Status TextView to display messages about voice recognition -->
+    <TextView
+            android:id="@+id/voice_recognition_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Press 'Start' to begin voice recognition"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"/>
+
+    <!-- Button to start voice recognition -->
+    <Button
+            android:id="@+id/start_voice_recognition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/voice_recognition_status"/>
+
+    <!-- Optional: Button to stop voice recognition -->
+    <Button
+            android:id="@+id/stop_voice_recognition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/start_voice_recognition"
+            android:layout_marginTop="16dp"/>
+
+    <!-- ImageButton with mic icon to start voice recognition -->
+    <ImageButton
+            android:id="@+id/mic_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_mic"
+            android:contentDescription="Start Voice Recognition"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/stop_voice_recognition"
+            android:layout_marginTop="16dp"
+            android:background="?attr/selectableItemBackgroundBorderless"/>
+
+</RelativeLayout>
