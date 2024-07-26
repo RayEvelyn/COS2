@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vector App</string>
+
+    <!-- Activity Titles -->
+    <string name="title_activity_speech_recognition">Speech Recognition</string>
+    <string name="title_activity_debug_logger">Debug Logger</string>
+    <string name="title_activity_notification_troubleshoot">Notification Troubleshoot</string>
+    <string name="title_activity_notification_manager">Notification Manager</string>
+    <string name="title_activity_notification_privacy">Notification Privacy</string>
+
+    <!-- Common UI Elements -->
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stop</string>
+
+    <!-- Speech Recognition Messages -->
+    <string name="speech_recognition_prompt">Say something...</string>
+    <string name="speech_recognition_listening">Listening...</string>
+    <string name="speech_recognition_stopped">Stopped</string>
+    <string name="speech_recognition_error">Error during speech recognition.</string>
+
+    <!-- Command Messages -->
+    <string name="command_not_recognized">Command not recognized.</string>
+    <string name="open_application_command">Open application command recognized.</string>
+    <string name="search_command_recognized">Search command recognized: %1$s</string>
+
+    <!-- Debug Logger Messages -->
+    <string name="debug_logger_start">Starting debug logger...</string>
+    <string name="debug_logger_stop">Stopping debug logger...</string>
+
+    <!-- Notification Troubleshoot Messages -->
+    <string name="notification_troubleshoot_start">Starting notification troubleshoot...</string>
+    <string name="notification_troubleshoot_stop">Stopping notification troubleshoot...</string>
+
+    <!-- Notification Manager Messages -->
+    <string name="notification_manager_start">Opening notification manager...</string>
+    <string name="notification_manager_stop">Closing notification manager...</string>
+
+    <!-- Notification Privacy Messages -->
+    <string name="notification_privacy_start">Opening notification privacy settings...</string>
+    <string name="notification_privacy_stop">Closing notification privacy settings...</string>
+
+    <!-- Error Messages -->
+    <string name="error_network_unavailable">Network unavailable. Please check your connection.</string>
+    <string name="error_speech_recognition_unsupported">Speech recognition is not supported on this device.</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Vector.App" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <!-- Theme used for specific settings or activities -->
+    <style name="Theme.Vector.Settings" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize the settings theme here -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <!-- Default text styles -->
+    <style name="TextAppearance.App.Default" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <!-- Button styles -->
+    <style name="Widget.AppCompat.Button" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@color/buttonBackground</item>
+        <item name="android:textColor">@color/buttonTextColor</item>
+    </style>
+
+    <!-- EditText styles -->
+    <style name="CustomEditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@color/editTextBackground</item>
+        <item name="android:textColor">@color/editTextTextColor</item>
+    </style>
+
+    <!-- Other custom styles -->
+    <style name="CustomTextStyle" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textColor">@color/customTextColor</item>
+    </style>
+</resources>
