@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="attachment_type_selector_ai" translatable="false">Chat with AI</string>
+    <string name="attachment_type_ai" translatable="false">AI Chat</string>
+</resources>

@@ -30,6 +30,16 @@
             app:titleTextColor="?vctr_content_primary" />
 
         <im.vector.app.core.ui.views.BottomSheetActionButton
+            android:id="@+id/ai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:actionTitle="@string/attachment_type_selector_ai"
+            app:leftIcon="@drawable/ic_attachment_ai"
+
+            app:tint="?colorPrimary"
+            app:titleTextColor="?vctr_content_primary" />
+
+        <im.vector.app.core.ui.views.BottomSheetActionButton
             android:id="@+id/file"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
