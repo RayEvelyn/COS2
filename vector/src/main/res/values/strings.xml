@@ -2,4 +2,5 @@
 <resources>
     <string name="attachment_type_selector_ai" translatable="false">Chat with AI</string>
     <string name="attachment_type_ai" translatable="false">AI Chat</string>
+    <string name="tooltip_attachment_ai">Call to AI</string>
 </resources>

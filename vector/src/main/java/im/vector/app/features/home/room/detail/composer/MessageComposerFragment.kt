@@ -708,6 +708,7 @@ class MessageComposerFragment : VectorBaseFragment<FragmentComposerBinding>(), A
                     cameraActivityResultLauncher = attachmentCameraActivityResultLauncher,
                     cameraVideoActivityResultLauncher = attachmentCameraVideoActivityResultLauncher
             )
+            AttachmentType.AI -> attachmentsHelper.sendAI(attachmentFileActivityResultLauncher)
             AttachmentType.FILE -> attachmentsHelper.selectFile(attachmentFileActivityResultLauncher)
             AttachmentType.GALLERY -> attachmentsHelper.selectGallery(attachmentMediaActivityResultLauncher)
             AttachmentType.CONTACT -> attachmentsHelper.selectContact(attachmentContactActivityResultLauncher)

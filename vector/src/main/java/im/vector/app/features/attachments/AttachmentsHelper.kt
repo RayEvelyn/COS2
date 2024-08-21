@@ -73,7 +73,9 @@ class AttachmentsHelper(
     }
 
     // Public Methods
+fun sendAI(activityResultLauncher: ActivityResultLauncher<Intent>)=doSafe {
 
+    }
     /**
      * Starts the process for handling file picking.
      */

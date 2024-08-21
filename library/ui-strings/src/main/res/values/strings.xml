@@ -2,25 +2,25 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Cross feature -->
-    <plurals name="x_selected">
+    <plurals name="x_selected" translatable="false">
         <item quantity="one">%1$d selected</item>
         <item quantity="other">%1$d selected</item>
     </plurals>
 
     <!-- Notice -->
-    <string name="notice_room_invite_no_invitee">%s\'s invitation</string>
-    <string name="notice_room_invite_no_invitee_by_you">Your invitation</string>
-    <string name="notice_room_created">%1$s created the room</string>
-    <string name="notice_room_created_by_you">You created the room</string>
-    <string name="notice_direct_room_created">%1$s created the discussion</string>
-    <string name="notice_direct_room_created_by_you">You created the discussion</string>
-    <string name="notice_room_invite">%1$s invited %2$s</string>
-    <string name="notice_room_invite_by_you">You invited %1$s</string>
-    <string name="notice_room_invite_you">%1$s invited you</string>
-    <string name="notice_room_join">%1$s joined the room</string>
-    <string name="notice_room_join_by_you">You joined the room</string>
-    <string name="notice_direct_room_join">%1$s joined</string>
-    <string name="notice_direct_room_join_by_you">You joined</string>
+    <string name="notice_room_invite_no_invitee" tools:ignore="MissingTranslation">%s\'s invitation</string>
+    <string name="notice_room_invite_no_invitee_by_you" translatable="false">Your invitation</string>
+    <string name="notice_room_created" translatable="false">%1$s created the room</string>
+    <string name="notice_room_created_by_you" translatable="false">You created the room</string>
+    <string name="notice_direct_room_created" translatable="false">%1$s created the discussion</string>
+    <string name="notice_direct_room_created_by_you" translatable="false">You created the discussion</string>
+    <string name="notice_room_invite" translatable="false">%1$s invited %2$s</string>
+    <string name="notice_room_invite_by_you" translatable="false">You invited %1$s</string>
+    <string name="notice_room_invite_you" translatable="false">%1$s invited you</string>
+    <string name="notice_room_join" translatable="false">%1$s joined the room</string>
+    <string name="notice_room_join_by_you" translatable="false">You joined the room</string>
+    <string name="notice_direct_room_join" translatable="false">%1$s joined</string>
+    <string name="notice_direct_room_join_by_you" translatable="false">You joined</string>
     <string name="notice_room_leave">%1$s left the room</string>
     <string name="notice_room_leave_by_you">You left the room</string>
     <string name="notice_direct_room_leave">%1$s left the room</string>

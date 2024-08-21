@@ -67,6 +67,7 @@ class AttachmentTypeSelectorView(
         views.attachmentCameraButton.configure(AttachmentType.CAMERA)
         views.attachmentFileButton.configure(AttachmentType.FILE)
         views.attachmentStickersButton.configure(AttachmentType.STICKER)
+        views.attachmentAIButton.configure(AttachmentType.AI)
         views.attachmentContactButton.configure(AttachmentType.CONTACT)
         views.attachmentPollButton.configure(AttachmentType.POLL)
         views.attachmentLocationButton.configure(AttachmentType.LOCATION)
@@ -83,6 +84,7 @@ class AttachmentTypeSelectorView(
         views.attachmentCloseButton.onClick {
             dismiss()
         }
+
     }
 
     private fun animateOpen() {
@@ -127,6 +129,7 @@ class AttachmentTypeSelectorView(
             AttachmentType.GALLERY -> views.attachmentGalleryButton
             AttachmentType.FILE -> views.attachmentFileButton
             AttachmentType.STICKER -> views.attachmentStickersButton
+            AttachmentType.AI -> views.attachmentAIButton
             AttachmentType.CONTACT -> views.attachmentContactButton
             AttachmentType.POLL -> views.attachmentPollButton
             AttachmentType.LOCATION -> views.attachmentLocationButton
@@ -218,6 +221,7 @@ class AttachmentTypeSelectorView(
                 AttachmentType.GALLERY -> R.string.tooltip_attachment_gallery
                 AttachmentType.FILE -> R.string.tooltip_attachment_file
                 AttachmentType.STICKER -> R.string.tooltip_attachment_sticker
+                AttachmentType.AI -> R.string.tooltip_attachment_ai
                 AttachmentType.CONTACT -> R.string.tooltip_attachment_contact
                 AttachmentType.POLL -> R.string.tooltip_attachment_poll
                 AttachmentType.LOCATION -> R.string.tooltip_attachment_location

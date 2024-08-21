@@ -54,14 +54,14 @@
                 app:tint="?colorPrimary" />
 
             <ImageButton
-                android:id="@+id/ai_call"
+                android:id="@+id/attachmentAIButton"
                 android:layout_width="@dimen/layout_touch_size"
                 android:layout_height="@dimen/layout_touch_size"
                 android:layout_marginStart="2dp"
                 android:background="?android:attr/selectableItemBackground"
                 android:contentDescription="@string/attachment_type_ai"
-                android:src="@drawable/ic_attachment_ai2"
-                app:tint="?colorPrimary" />
+                android:src="@drawable/ic_attachment_ai"
+                 />
 
             <ImageButton
                 android:id="@+id/attachmentFileButton"

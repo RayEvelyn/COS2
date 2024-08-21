@@ -16,11 +16,7 @@
 
 package im.vector.app.features.attachments
 
-import im.vector.app.core.utils.PERMISSIONS_EMPTY
-import im.vector.app.core.utils.PERMISSIONS_FOR_FOREGROUND_LOCATION_SHARING
-import im.vector.app.core.utils.PERMISSIONS_FOR_PICKING_CONTACT
-import im.vector.app.core.utils.PERMISSIONS_FOR_TAKING_PHOTO
-import im.vector.app.core.utils.PERMISSIONS_FOR_VOICE_BROADCAST
+import im.vector.app.core.utils.*
 
 /**
  * The all possible types to pick with their required permissions.
@@ -29,9 +25,12 @@ enum class AttachmentType(val permissions: List<String>) {
     CAMERA(PERMISSIONS_FOR_TAKING_PHOTO),
     GALLERY(PERMISSIONS_EMPTY),
     FILE(PERMISSIONS_EMPTY),
-    STICKER(PERMISSIONS_EMPTY),
+    STICKER(PERMISSIONS_FOR_VOICE_MESSAGE),
+    AI(PERMISSIONS_EMPTY),
     CONTACT(PERMISSIONS_FOR_PICKING_CONTACT),
     POLL(PERMISSIONS_EMPTY),
     LOCATION(PERMISSIONS_FOR_FOREGROUND_LOCATION_SHARING),
-    VOICE_BROADCAST(PERMISSIONS_FOR_VOICE_BROADCAST),
+    VOICE_BROADCAST(PERMISSIONS_FOR_VOICE_BROADCAST),;
+
+
 }
