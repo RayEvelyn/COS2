@@ -1743,6 +1743,7 @@
     <string name="navigate_to_thread_when_already_in_the_thread">You are already viewing this thread!</string>
 
     <!-- Settings -->
+    <string name="calendar">Calendar</string>
     <string name="settings_general_title">General</string>
     <string name="settings_preferences">Preferences</string>
     <string name="settings_security_and_privacy">Security &amp; Privacy</string>

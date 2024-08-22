@@ -58,8 +58,8 @@
 
     <im.vector.app.core.preference.VectorPreference
         android:icon="@drawable/ic_settings_root_legals"
-        android:title="Calendar"
-        app:fragment="im.vector.app.features.settings.VectorSettings.Calendar"
+        android:title="@string/calendar"
+        app:fragment="im.vector.app.features.settings.VectorSettingsCalendar"
         app:isPreferenceVisible="true" />
 
 </androidx.preference.PreferenceScreen>
