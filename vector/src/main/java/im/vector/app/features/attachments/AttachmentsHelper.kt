@@ -74,7 +74,7 @@ class AttachmentsHelper(
 
     // Public Methods
 fun sendAI(activityResultLauncher: ActivityResultLauncher<Intent>)=doSafe {
-
+        MultiPicker.get(MultiPicker.FILE).startWith(activityResultLauncher)
     }
     /**
      * Starts the process for handling file picking.

@@ -22,6 +22,7 @@ class MultiPicker<T> private constructor() {
         val IMAGE by lazy { MultiPicker<ImagePicker>() }
         val MEDIA by lazy { MultiPicker<MediaPicker>() }
         val FILE by lazy { MultiPicker<FilePicker>() }
+        /**val AI by lazy { MultiPicker<AiSender>() }*/
         val VIDEO by lazy { MultiPicker<VideoPicker>() }
         val AUDIO by lazy { MultiPicker<AudioPicker>() }
         val CONTACT by lazy { MultiPicker<ContactPicker>() }
@@ -33,6 +34,7 @@ class MultiPicker<T> private constructor() {
             return when (type) {
                 IMAGE -> ImagePicker() as T
                 VIDEO -> VideoPicker() as T
+                /**AI -> AiSender() as T*/
                 MEDIA -> MediaPicker() as T
                 FILE -> FilePicker() as T
                 AUDIO -> AudioPicker() as T
