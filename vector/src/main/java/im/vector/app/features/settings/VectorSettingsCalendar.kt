@@ -7,24 +7,45 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.RecyclerView
 import dagger.hilt.android.AndroidEntryPoint
 import im.vector.app.R
+import im.vector.app.core.di.ActiveSessionHolder
 import im.vector.app.core.preference.VectorPreference
+import im.vector.app.features.analytics.AnalyticsConfig
 import im.vector.app.features.analytics.plan.MobileScreen
+import im.vector.app.features.crypto.keys.KeysExporter
+import im.vector.app.features.crypto.keys.KeysImporter
+import im.vector.app.features.navigation.Navigator
+import im.vector.app.features.pin.PinCodeStore
 import im.vector.app.features.raw.wellknown.getElementWellknown
 import im.vector.app.features.raw.wellknown.isE2EByDefault
 import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 import kotlinx.coroutines.launch
+import org.matrix.android.sdk.api.raw.RawService
+import javax.inject.Inject
 
 @AndroidEntryPoint
-abstract class VectorSettingsCalendar :
+class VectorSettingsCalendar :
     VectorSettingsBaseFragment() {
+
+    @Inject
+    lateinit var activeSessionHolder: ActiveSessionHolder
+    @Inject
+    lateinit var pinCodeStore: PinCodeStore
+    @Inject
+    lateinit var rawService: RawService
+    @Inject
+    lateinit var navigator: Navigator
+    @Inject
+    lateinit var analyticsConfig: AnalyticsConfig
+    @Inject
+    lateinit var vectorPreferences: VectorPreferences
 
     override var titleRes = R.string.calendar
     override val preferenceXmlRes = R.layout.layout_calendar
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        analyticsScreenName = MobileScreen.ScreenName.SettingsSecurity // need to figure out how to modify this
+        analyticsScreenName = MobileScreen.ScreenName.SettingsGeneral // need to figure out how to modify this
     }
 
     override fun onCreateRecyclerView(inflater: LayoutInflater, parent: ViewGroup, savedInstanceState: Bundle?): RecyclerView {
@@ -36,7 +57,11 @@ abstract class VectorSettingsCalendar :
         }
     }
 
-    override fun onResume() {
+    override fun bindPref() {
+        TODO("Not yet implemented")
+    }
+
+    /*override fun onResume() {
         super.onResume()
         session.liveSecretSynchronisationInfo()
             .onEach {
@@ -55,5 +80,5 @@ abstract class VectorSettingsCalendar :
             // My device name may have been updated
             refreshMyDevice()
         }
-    }
+    }*/
 }
